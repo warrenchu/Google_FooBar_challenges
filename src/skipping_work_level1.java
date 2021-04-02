@@ -1,6 +1,6 @@
 import java.util.Arrays;
-// This is Google's Foobar challenge 1.
-public class skippingwork_solution {
+// This is Google's Foobar challenge 1- skipping work.
+public class skipping_work_level1 {
     public static int solution(int[] x, int[] y) {
         // Your code here
         // firstly sort the array
@@ -24,6 +24,7 @@ public class skippingwork_solution {
             }
             return 0;
     }
+    // test it to make sure it's working
     public static void main(String[] args) {
         int w[] = new int[] {13, 5, 6, 2, 5};
         int q[] = new int[] {5, 2, 5, 13};
